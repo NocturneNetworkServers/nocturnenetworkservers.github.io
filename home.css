@@ -13,12 +13,14 @@
     margin: 0;
 }
 
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0, 0, 0, 0.85)), url(Images/background.jpg);
+    background-size: cover;
+}
+
 #banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(Images/background.jpg);
-    background-size: fill;
-    background-position: center;
 }
 
 .main{
@@ -48,7 +50,6 @@
     padding: 15px 0;
     text-align: center;
     margin: 80px 40px;
-    font-weight: bold;
     background: linear-gradient(#353736,#0E0E0E);
     border: 0px;
     border-radius: 5px;
@@ -65,5 +66,21 @@
     border-bottom: #7DC772 solid 20px;
     height: 140px;
     width: 140px;
+    transform: translateY(-5%);
     background: linear-gradient(#0E0E0E,#353736);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background: #353736;
+}
+   
+
+::-webkit-scrollbar-thumb {
+    background: #7DC772; 
+    border-radius: 2px;
 }
