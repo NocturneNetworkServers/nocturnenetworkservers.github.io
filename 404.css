@@ -43,13 +43,19 @@
     font-family: 'modern';
 }
 
+.divider {
+    width: 20em;
+    height: 0.2em;
+    background-image: linear-gradient(to right,#7dc77244,#7dc77276,#7DC772,#7dc77276,#7dc77244);
+    position: relative;
+    top: 35px;
+    margin: auto;
+}
+
 .button {
-    width: 130px;
-    height: 130px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 80px 40px;
-    font-weight: bold;
+    width: 14.5em;
+    height: 10.5em;
+    margin: 6em 2em;
     background: linear-gradient(#353736,#0E0E0E);
     border: 0px;
     border-radius: 5px;
@@ -63,9 +69,24 @@
     border-top: #7DC772 solid 4px;
     border-left: #7DC772 solid 0.3px;
     border-right: #7DC772 solid 0.3px;
-    border-bottom: #7DC772 solid 20px;
-    height: 140px;
-    width: 140px;
+    border-bottom: #7DC772 solid 22px;
+    height: 11em;
+    width: 15em;
     transform: translateY(-5%);
     background: linear-gradient(#0E0E0E,#353736);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+
+::-webkit-scrollbar-track {
+    background: #353736;
+}
+   
+
+::-webkit-scrollbar-thumb {
+    background: #7DC772; 
+    border-radius: 2px;
 }
