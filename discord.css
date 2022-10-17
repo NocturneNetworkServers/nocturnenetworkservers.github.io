@@ -53,32 +53,6 @@ body {
     margin: auto;
 }
 
-
-.button {
-    width: 14.5em;
-    height: 10.5em;
-    margin: auto 2em;
-    background: linear-gradient(#353736,#0E0E0E);
-    border: 0px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #fff;
-    font-family: 'modern';
-    font-size: 15px;
-    transform: translateY(-20%);
-}
-
-.button:hover {
-    border-top: #7DC772 solid 4px;
-    border-left: #7DC772 solid 0.3px;
-    border-right: #7DC772 solid 0.3px;
-    border-bottom: #7DC772 solid 22px;
-    height: 11em;
-    width: 15em;
-    transform: translateY(-25%);
-    background: linear-gradient(#0E0E0E,#353736);
-}
-
 .navbar {
     height: 1.7em;
     width: 40em;
@@ -103,11 +77,6 @@ body {
 
 .menubutton:hover {
     background: rgba(255, 255, 255, 0.157);
-}
-
-#current {
-    background: #fff;
-    color: #353736;
 }
 
 #P {
