@@ -80,7 +80,7 @@ body {
 }
 
 .navbar {
-    height: 1.7em;
+    height: auto;
     width: 40em;
     margin: 3.5em auto;
     background: linear-gradient(#ebebeb29, #8181811f);
